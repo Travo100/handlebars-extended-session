@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log(true);
     $("#movie-form").on("submit", function(e){
         e.preventDefault();
         $.ajax({
@@ -18,5 +17,4 @@ $(document).ready(function(){
             }
         });
     });
-    
 });
