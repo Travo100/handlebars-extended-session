@@ -1,2 +1,8 @@
 # handlebars-extended-session
-Handlesbars extended session for the coding boot camp June 2018 class
+Code, Deployed site, and video for the extended session for handlebars! 🚴
+
+GitHub: https://github.com/Travo100/handlebars-extended-session
+
+Deployed Site: https://handlebars-extended-session.herokuapp.com/
+
+Video: <processing>
