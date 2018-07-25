@@ -18,11 +18,17 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Import routes and give the server access to them.
-// var routes = require("./controllers/moviesController.js");
+var routes = require("./controllers/moviesController.js");
 
-// app.use(routes);
+app.use(routes);
 
-app.get("/", (req, res)=>res.send("Hello World!"));
+// app.get("/", function(req, res) {
+//     res.render("index", {name: "Kris"});
+// });
+
+// app.get("/:username", function(req, res) {
+//     res.render("index", {name: req.params.username});
+// });
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
